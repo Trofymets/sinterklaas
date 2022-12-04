@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sinterklaas</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <nav id="menu">
+      <ul>
+        <li>
+          <a href="about.html">Over Sinterklaas</a>
+        </li>
+        <li>
+          <a href="snoepjes.html">Snoepjes</a>
+        </li>
+        <li>
+          <a href="#" id="pieten" onclick="pietStatusUpdate()">Piet worden</a>
+        </li>
+        <li>
+          <a href="#" onclick="contactSinterklaas()">E-mail sturen</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="piet-application-update">
+      <h2>Helaas... :(</h2>
+      <p>
+        Geen nieuwe pieten nodig <br />
+        op dit moment
+      </p>
+    </section>
+
+    <section>
+      <form action="" id="contact-Sinterklaas">
+        <div class="sender-fullname">
+          <div class="sender-first-name">
+            <p><label for="">First Name</label></p>
+            <input type="text" placeholder="Bree " />
+          </div>
+
+          <div class="sender-last-name">
+            <p><label for="">Last Name</label></p>
+            <input type="text" placeholder="van de Kamp" />
+          </div>
+        </div>
+
+        <p>
+          <label for="">Your email</label>
+        </p>
+        <input
+          class="email-input"
+          type="email"
+          placeholder="example@gmail.com"
+        />
+        <br />
+        <textarea name="EmailText" id="EmailText">
+Beste Sinterklaasje, 
+        </textarea>
+
+        <br />
+        <button class="button">Sent</button>
+      </form>
+    </section>
+  </body>
+
+  <!-- <script>
+    function PietStatusUpdate() {
+      document.getElementById("piet-application-update ").style.display =
+        "flex";
+    }
+  </script> -->
+
+  <!-- <script>
+    document
+      .getElementById("pieten")
+      .addEventListener("click", PietStatusUpdate);
+
+    function PietStatusUpdate() {
+      document.getElementById("pieten").innerHTML =
+        "Geen nieuwe pieten nodig op dit moment";
+    }
+  </script> -->
+</html>

@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url(Sinterklaasje.jpeg);
+    background-color: rgb(37, 66, 47);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    max-height: 100vw;
+    color: white;
+    font-size: 3rem;
+  
+    height: 100vh;
+    display: flex;
+   
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#menu {
+    padding-bottom: 2rem;
+    margin: 2rem;
+    
+}
+
+#menu a {
+    color: #ffffda;
+    text-decoration: none;
+    
+}
+
+#menu li > a:hover {
+    color: white;
+    background-color: rgb(37, 66, 47);
+    padding: 0.3rem 0.3rem 0.3rem 0;
+
+}
+
+
+.return-link {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(37, 66, 47);
+    opacity: 0.7;
+    margin: 2.5rem;
+    width: 20%;
+}
+
+.sinterklaas-story {
+    margin-left: 4rem;
+}
+
+.sinterklaas-story h3 {
+    background-color: rgb(37, 66, 47);
+    width: 840px;
+    padding: 0.5rem;
+}
+
+.snoepjes-text {
+    width: 50%;
+    height: 70%;
+    margin-left: 3.5rem;
+    text-align: justify;
+}
+
+.snoepjes-text h3 {
+    background-color: white;
+    color: rgb(37, 66, 47);
+    opacity: 0.5;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.snoepjes-text p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    background-image:url(snoep.jpg);
+    padding: 1rem;
+}
+
+
+#piet-application-update {
+    background-color: white;
+    opacity: 0.8;
+    color: rgb(37, 66, 47);
+    text-align: center;
+    width: 40%;
+    padding: 4.5rem 2rem;
+    margin: 0 4rem;
+    border-radius: 0.3rem;
+    display: none;
+    
+}
+
+#contact-Sinterklaas{
+    background-color: white;
+    opacity: 0.8;
+    color: rgb(37, 66, 47);
+    border-radius: 0.3rem;
+    width: 40%;
+    padding: 1.5rem;
+    font-size: 1rem;
+    margin-left: 4rem;
+    display: none;
+
+}
+
+label {
+    margin-bottom: 0.3rem;
+    display: inline-block;
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border-color: rgb(37, 66, 47);
+    outline: none;
+    margin-bottom: 1rem;
+    width: 99%;
+}
+
+.sender-name {
+    display: flex;
+    align-items: center;
+}
+
+
+
+textarea {
+   width: 99%;
+   height: 15rem;
+}
+
+.button {
+    background-color: rgb(37, 66, 47);
+    color: white;
+    padding: 1rem 5rem;
+    border-radius: 5%;
+    
+}
+
+.button:hover {
+    background-color: white;
+    color: rgb(37, 66, 47);
+    cursor: pointer;
+}
